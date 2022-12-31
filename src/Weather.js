@@ -36,18 +36,19 @@ export default function Weather() {
       <input type="submit" value="Search" />
     </form>
   );
- if (loaded) {
-  return (
-    {form}
-<ul>
-<li>Temperature: {Math.round(weather.temperature)}° C</li>
-      <li>Description: {weather.description}</li>
-      <li>Wind: {weather.wind} km/h </li>
-      <li>Humidity: {weather.humidity} % </li>
-</ul>
-   
-  );
-} else {
-  return form;
-}
+  if (loaded) {
+    return (
+      <div className="List">
+        {form}
+        <ul>
+          <li>Temperature: {Math.round(weather.temperature)}° C</li>
+          <li>Description: {weather.description}</li>
+          <li>Wind: {weather.wind} km/h </li>
+          <li>Humidity: {weather.humidity} % </li>
+        </ul>
+      </div>
+    );
+  } else {
+    return form;
+  }
 }
