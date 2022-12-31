@@ -39,13 +39,13 @@ export default function Weather() {
  if (loaded) {
   return (
     {form}
-
-    <ul> 
-      <li>Temperature: {Math.round(weather.temperature)}°C </li>
-      <li>Description: {weather.description} </li>
+<ul>
+<li>Temperature: {Math.round(weather.temperature)}° C</li>
+      <li>Description: {weather.description}</li>
       <li>Wind: {weather.wind} km/h </li>
       <li>Humidity: {weather.humidity} % </li>
-   </ul>
+</ul>
+   
   );
 } else {
   return form;
