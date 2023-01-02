@@ -15,15 +15,14 @@ export default function Weather() {
     });
   }
 
-  let apiKey = "8701153725c9af84bc25fc5d98176cc0";
-  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&apid=${apiKey}&units=metric`;
-  axios.get(apiUrl).then(displayWeather);
-
   function updateWeather(event) {
     setCity(event.target.value);
   }
   function handleSubmit(event) {
     event.preventDefault();
+    let apiKey = "8701153725c9af84bc25fc5d98176cc0";
+    let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&apid=${apiKey}&units=metric`;
+    axios.get(apiUrl).then(displayWeather);
   }
 
   let form = (
