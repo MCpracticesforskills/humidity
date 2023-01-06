@@ -5,8 +5,7 @@ export default function Conditions() {
     <div className="Conditions">
       <h1 className="p-5 text-center">Weather App</h1>
       <h6>New York</h6>
-      <h6>Wednesday </h6>
-      <h6>7:00AM</h6>
+      <h6>Wednesday 7:00AM </h6>
       <h6>Mostly Cloudy</h6>
       <div className="row">
         <div className="col-6">
