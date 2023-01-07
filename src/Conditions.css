@@ -20,8 +20,10 @@
   text-align: left;
   padding: 40px;
 }
-.Weather form {
-  padding: 100px;
+
+.Weather Form {
+  display: block;
+  text-align: center;
 }
 
 .App footer {

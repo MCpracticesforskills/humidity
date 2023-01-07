@@ -27,7 +27,7 @@ export default function Weather() {
   }
 
   let form = (
-    <form onSubmit={handleSubmit}>
+    <form className="Form" onSubmit={handleSubmit}>
       <input
         onChange={updateWeather}
         type="search"

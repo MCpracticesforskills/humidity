@@ -1,4 +1,3 @@
-import "./App.css";
 import Weather from "./Weather";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Conditions.css";
