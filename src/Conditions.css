@@ -5,3 +5,9 @@
   margin: 20px;
   background-color: aliceblue;
 }
+.List {
+  display: table;
+  margin: 0 auto;
+  text-align: left;
+  padding: 40px;
+}
