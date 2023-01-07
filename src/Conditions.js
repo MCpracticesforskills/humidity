@@ -3,7 +3,7 @@ import React from "react";
 export default function Conditions() {
   return (
     <div className="Conditions">
-      <h1>New York</h1>
+      <h1 className="pb-3">New York</h1>
       <h6>Wednesday 7:00AM </h6>
       <h6>Mostly Cloudy</h6>
       <div className="row">
