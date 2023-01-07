@@ -21,11 +21,27 @@
   padding: 40px;
 }
 
-.Weather Form {
+.Weather .Form {
   display: block;
   text-align: center;
 }
 
 .App footer {
   text-align: center;
+  font-size: 12px;
+}
+.Conditions .degrees {
+  font-size: 54px;
+  font-weight: 400;
+}
+.Conditions .units {
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  top: -26px;
+  margin-left: 4px;
+  line-height: 1;
+}
+.Conditions img {
+  margin-right: 8px;
 }

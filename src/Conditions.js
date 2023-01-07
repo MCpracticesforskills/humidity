@@ -1,4 +1,5 @@
 import React from "react";
+import "./Conditions.css";
 
 export default function Conditions() {
   return (
@@ -6,13 +7,15 @@ export default function Conditions() {
       <h1 className="pb-3">New York</h1>
       <h6>Wednesday 7:00AM </h6>
       <h6>Mostly Cloudy</h6>
-      <div className="row">
+      <div className="row mt-4">
         <div className="col-6">
           <img
             src="https://ssl.gstatic.com/onebox/weather/64/rain.png"
             alt="cloud with rain"
           ></img>
-          6°
+
+          <span className="degrees">6</span>
+          <span className="units">°C</span>
         </div>
         <div className="col-6">
           <h6>Precipitation: 20%</h6>

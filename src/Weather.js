@@ -32,6 +32,7 @@ export default function Weather() {
         onChange={updateWeather}
         type="search"
         placeholder="Search for a city..."
+        autoFocus="on"
       />
       <input type="submit" value="Search" />
     </form>
