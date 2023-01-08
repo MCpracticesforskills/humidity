@@ -1,4 +1,3 @@
-import Weather from "./Weather";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Conditions.css";
 import Conditions from "./Conditions";
@@ -6,8 +5,7 @@ import Conditions from "./Conditions";
 function App() {
   return (
     <div className="App">
-      <Conditions />
-      <Weather />
+      <Conditions defaultCity="New York" />
 
       <footer>
         This project is{" "}
